@@ -51,7 +51,7 @@ if(isset($_POST['Emp_id']) && !empty($_POST['Emp_id']) && isset($_POST['Password
 						}
 						
 				else if(mysql_num_rows($query1_data)==0){ 
-						echo 'Invalid username and/or password';
+						echo '<h2>Invalid username and/or password</h2>';
 						}
 					}
 	
